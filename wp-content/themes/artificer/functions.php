@@ -1,4 +1,5 @@
 <?php
+add_filter( 'show_admin_bar', '__return_false' );
 
 /*-----------------------------------------------------------------------------------*/
 /* Start WooThemes Functions - Please refrain from editing this section */
