@@ -1,4 +1,7 @@
 <?php
+
+require 'my-custom-posts.php';
+
 add_filter( 'show_admin_bar', '__return_false' );
 
 /*-----------------------------------------------------------------------------------*/
